@@ -6,22 +6,6 @@ nav: true
 nav_order: 4
 ---
 
-<style>
-.contact-wrap { display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: stretch; margin-top: 1.5rem; }
-.contact-card {
-  flex: 1 1 320px;
-  background: #f7f8fa; border: 1px solid #e3e6e9; border-radius: 14px;
-  padding: 1.8rem;
-}
-.contact-card .lab-name { color: #0E4A8A; font-size: 1.25rem; font-weight: 700; margin: 0 0 1.3rem; }
-.contact-row { display: flex; gap: 1rem; margin-bottom: 1.1rem; line-height: 1.55; }
-.contact-row .label { color: #0E4A8A; font-weight: 700; min-width: 72px; }
-.contact-row .value { color: #898C8E; }
-.contact-row .value a { color: #0E4A8A; }
-.contact-map { flex: 1 1 360px; min-height: 320px; }
-.contact-map iframe { width: 100%; height: 100%; min-height: 320px; border: 0; border-radius: 14px; }
-</style>
-
 <div class="contact-wrap">
   <div class="contact-card">
     <p class="lab-name">Security, Usability, and Networking Lab (SUNLab)</p>
