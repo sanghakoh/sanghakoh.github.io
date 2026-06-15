@@ -89,7 +89,7 @@ nav_order: 1
     <h3>Usable Security</h3>
     <p>We study how people perceive, adopt, and interact with security and 
       privacy mechanisms, drawing on real-user data to make these mechanisms 
-      more usable in practice without weakening their protection.</p>
+      more usable in practice without compromising security.</p>
   </div>
   <div class="research-card">
     <img src="/assets/img/icon-ai-security.png" alt="AI Security" />
@@ -103,7 +103,7 @@ nav_order: 1
 ## News
 
 - **Jun 2026** · SUNLab officially launches at Hanyang University ERICA!
-- **Mar 2026** · Two papers accepted to ASIACCS 2026 (CCA-Droid and PP-Vul).
+- **Mar 2026** · Two papers are accepted at ASIACCS 2026 (CCA-Droid and PP-Vul).
 
 <div class="joinus">
   <div class="joinus-title">Join Us</div>
