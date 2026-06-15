@@ -10,21 +10,19 @@ nav_order: 1
 <style>
 .post-header { display: none; }
 .lab-hero {
-  border: 1px solid #e3e6e9;
-  border-top: 4px solid #0E4A8A;
   border-radius: 16px;
-  background: linear-gradient(180deg, #eaf1f9 0%, #ffffff 100%);
-  color: #1e293b;
+  background: #0E4A8A;
+  color: #ffffff;
   text-align: center;
-  padding: 2.4rem 1.5rem;
+  padding: 2.6rem 1.6rem;
   margin: 1rem 0 2.5rem;
-  box-shadow: 0 1px 4px rgba(14, 74, 138, .07);
+  box-shadow: 0 2px 8px rgba(14, 74, 138, .18);
 }
-.lab-hero .lab-name { font-size: 1.7rem; font-weight: 700; line-height: 1.3; margin: 0 0 .3rem; }
-.lab-hero .lab-name .sun { color: #0E4A8A; }
-.lab-hero .lab-abbr { letter-spacing: .18em; font-weight: 600; color: #0E4A8A; margin: .1rem 0 1rem; }
-.lab-hero .lab-tagline { font-size: 1.05rem; max-width: 48ch; margin: 0 auto .7rem; }
-.lab-hero .lab-affil { font-size: .9rem; color: #898C8E; margin: 0; }
+.lab-hero .lab-name { font-size: 1.7rem; font-weight: 700; line-height: 1.3; margin: 0 0 .3rem; color: rgba(255,255,255,.85); }
+.lab-hero .lab-name .sun { color: #ffffff; }
+.lab-hero .lab-abbr { letter-spacing: .18em; font-weight: 600; color: #ffffff; margin: .1rem 0 1rem; }
+.lab-hero .lab-tagline { font-size: 1.05rem; max-width: 48ch; margin: 0 auto .7rem; color: rgba(255,255,255,.9); }
+.lab-hero .lab-affil { font-size: .9rem; color: rgba(255,255,255,.7); margin: 0; }
 
 .research-grid { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; }
 .research-card {
@@ -63,25 +61,25 @@ nav_order: 1
 
 <div class="research-grid">
   <div class="research-card">
-    <img src="/assets/img/icon-network-security.png" alt="Network Security" />
-    <h3>Network Security</h3>
-    <p>Traffic analysis and application fingerprinting over encrypted and
-    VPN-tunneled traffic, and orchestrating network security functions to
-    enforce high-level security policies.</p>
+    <img src="/assets/img/icon-network-security.png" alt="Threat Identification" />
+    <h3>Threat Identification</h3>
+    <p>We identify emerging security threats through vulnerability discovery and
+    side-channel analysis, including risks introduced by modern architectures
+    such as AI accelerators and other emerging computing platforms.</p>
   </div>
   <div class="research-card">
-    <img src="/assets/img/icon-usable-security.png" alt="Usable Security" />
-    <h3>Usable Security</h3>
-    <p>Studying how people actually adopt and reason about security and privacy
-    tools, and designing protections that hold up in real-world use, not just
-    on paper.</p>
+    <img src="/assets/img/icon-usable-security.png" alt="Threat Mitigation and Enforcement" />
+    <h3>Threat Mitigation &amp; Enforcement</h3>
+    <p>We design and implement practical defense mechanisms, including trusted
+    execution environments (TEEs) and secure system designs, to enforce security
+    guarantees in both networked and system-level infrastructures.</p>
   </div>
   <div class="research-card">
-    <img src="/assets/img/icon-ai-security.png" alt="AI Security" />
-    <h3>AI Security</h3>
-    <p>The risks of poisoned or insecure AI, such as insecure code suggestions
-    from compromised models, and the adversarial robustness of ML-based
-    detection systems.</p>
+    <img src="/assets/img/icon-ai-security.png" alt="Security Evaluation" />
+    <h3>Security Evaluation</h3>
+    <p>We perform systematic security analysis of networked systems using
+    techniques such as dynamic analysis and fuzzing to uncover vulnerabilities
+    and evaluate the robustness of real-world software and protocols.</p>
   </div>
 </div>
 
