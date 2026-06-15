@@ -79,7 +79,7 @@ nav_order: 3
 
 - **A Comparative Study of Time Series Anomaly Detection Models for Industrial Control Systems.**<br>
   Bedeuro Kim, Mohsen Ali Alawami, Eunsoo Kim, <span class="me">Sanghak Oh</span>, Jeongyong Park, and Hyoungshick Kim.<br>
-  Sensors <br>
+  <span class="venue">Sensors</span> <br>
   <a class="pdf-btn" href="https://www.mdpi.com/1424-8220/23/3/1310">PDF</a>
 
 ### 2017
