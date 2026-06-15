@@ -51,6 +51,18 @@ nav_order: 1
   .joinus .email-btn:hover { background: #0c3e75; color: #fff; transform: translateY(-2px); }
 </style>
 
+<style>
+  /* SUNLab 로고: 네비게이션 왼쪽 위 (전 페이지 공통, 자동으로 home 링크) */
+  .navbar-brand {
+    display: inline-block !important;
+    width: 110px !important;        /* 로고 가로폭, 필요하면 조절 */
+    height: 44px !important;        /* 네비바 높이에 맞춤 */
+    padding: 0 !important;
+    font-size: 0 !important;        /* 테마 기본 "SUNLab" 글자 숨김 */
+    background: url("/assets/img/sunlab_icon_with_white_background.png") left center / contain no-repeat;
+  }
+</style>
+
 <div class="lab-hero">
   <h1 class="lab-name"><span class="sun">S</span>ecurity, <span class="sun">U</span>sability, and <span class="sun">N</span>etworking Lab</h1>
   <p class="lab-abbr">SUNLab</p>
