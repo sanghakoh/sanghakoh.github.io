@@ -1,5 +1,8 @@
 ---
+layout: about
 title: Home
+permalink: /
+subtitle:
 nav: true
 nav_order: 1
 ---
