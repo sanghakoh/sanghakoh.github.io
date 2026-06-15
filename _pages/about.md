@@ -107,3 +107,18 @@ nav_order: 1
   <p>If you are passionate about solving challenging problems across networks, machine learning, and human factors, please reach out!</p>
   <a class="email-btn" href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>
 </div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.querySelector("#navbar .container")
+           || document.querySelector("nav .container")
+           || document.querySelector("nav");
+    if (nav && !nav.querySelector(".navbar-brand")) {
+      var a = document.createElement("a");
+      a.className = "navbar-brand title font-weight-lighter";
+      a.setAttribute("href", "/");
+      a.setAttribute("aria-label", "SUNLab home");
+      nav.insertBefore(a, nav.firstChild);
+    }
+  });
+</script>
