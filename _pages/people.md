@@ -74,6 +74,14 @@ nav_order: 2
 
 <p class="empty-note">We are recruiting motivated students. See the Join Us section on the home page.</p>
 
+<div class="member-grid">
+  <div class="member">
+    <img src="/assets/img/member1.jpg" alt="Name" />
+    <div class="m-name">Hong Gildong</div>
+    <div class="m-role">Ph.D. Student</div>
+  </div>
+</div>
+
 <!-- 학생이 생기면 아래 틀을 복사해서 채우세요
 <div class="member-grid">
   <div class="member">
