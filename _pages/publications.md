@@ -126,5 +126,3 @@ nav_order: 3
   <span class="me">Sanghak Oh</span>, Eunsoo Kim, and Hyoungshick Kim.<br>
   <span class="venue">WISA '16</span> The 17th World Conference on Information Security Applications<br>
   <a class="pdf-btn" href="https://link.springer.com/chapter/10.1007/978-3-319-56549-1_15">PDF</a>
-
----
