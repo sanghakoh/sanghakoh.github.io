@@ -78,9 +78,9 @@ nav_order: 1
   <div class="research-card">
     <img src="/assets/img/icon-network-security.png" alt="Network Security" />
     <h3>Network Security</h3>
-    <p>We analyze and protect networked systems and the traffic that flows
-     through them, uncovering attacks and keeping real-world networks reliable
-     and trustworthy.</p>
+    <p>We study the security of networked systems and the traffic that flows
+      through them, examining how networks and communications can be attacked
+      and how to keep them reliable and resilient.</p>
   </div>
   <div class="research-card">
     <img src="/assets/img/icon-usable-security.png" alt="Usable Security" />
