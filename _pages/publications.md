@@ -29,7 +29,7 @@ nav_order: 3
 - **CCA-Droid: Context-Aware Cryptographic API Misuse Detection in Android Apps.**<br>
   Minwook Lee, Eunsoo Kim, <span class="me">Sanghak Oh</span>, Joonsang Baek, Willy Susilo, and Hyoungshick Kim.<br>
   <span class="venue">ASIACCS '26</span> The 21st ACM ASIA Conference on Computer and Communications Security<br>
-  <a class="pdf-btn" href="#">PDF</a>
+  <a class="pdf-btn" href="[#](https://dl.acm.org/doi/abs/10.1145/3779208.3807487)">PDF</a>
 
 - **PP-Vul: Privacy-Preserving Vulnerability Detection Using Homomorphic Encryption.**<br>
   Seungho Kim, Seonhye Park, Jihun Kim, Eunsoo Kim, <span class="me">Sanghak Oh</span>, Hyunmin Choi, and Hyoungshick Kim.<br>
