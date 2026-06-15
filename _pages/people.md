@@ -77,7 +77,7 @@ nav_order: 2
     </p>
     <div class="pi-links">
       <a href="mailto:sanghak@hanyang.ac.kr">Email</a>
-      <a href="https://scholar.google.com/citations?user=YOUR_ID&user=2ipInUsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://scholar.google.com/citations?user=2ipInUsAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
       <a href="https://dblp.org/pid/195/6446.html" target="_blank" rel="noopener">DBLP</a>
       <a href="/assets/pdf/cv.pdf" target="_blank" rel="noopener">CV</a>
     </div>
