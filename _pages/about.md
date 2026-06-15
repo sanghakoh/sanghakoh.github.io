@@ -87,7 +87,7 @@ nav_order: 1
 ## News
 
 - **Jun 2026** · SUNLab officially launches at Hanyang University ERICA!
-- **Mar 2026** · Two papers accepted to ASIACCS 2026 (CCA-Droid, PP-Vul).
+- **Mar 2026** · Two papers accepted to ASIACCS 2026 (CCA-Droid, and PP-Vul).
 
 <div class="joinus">
   <div class="joinus-title">Join Us</div>
