@@ -92,9 +92,9 @@ nav_order: 1
   <div class="research-card">
     <img src="/assets/img/icon-ai-security.png" alt="AI Security" />
     <h3>AI Security</h3>
-    <p>We investigate the security and robustness of AI and machine learning
-    systems, including the risks of poisoned or compromised models, to defend
-    learning-based systems against adversarial manipulation.</p>
+    <p>We study the security and privacy of AI systems, examining how their
+      data, models, and pipelines can be attacked and how to make them robust
+      and trustworthy.</p>
   </div>
 </div>
 
