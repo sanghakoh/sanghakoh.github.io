@@ -7,48 +7,7 @@ nav: false
 nav_order: 1
 ---
 
-<style>
-.post-header { display: none; }
-.lab-hero {
-  border-radius: 16px;
-  background: #0E4A8A;
-  color: #ffffff;
-  text-align: center;
-  padding: 2.6rem 1.6rem;
-  margin: 1rem 0 2.5rem;
-  box-shadow: 0 2px 8px rgba(14, 74, 138, .18);
-}
-.lab-hero .lab-name { font-size: 1.7rem; font-weight: 700; line-height: 1.3; margin: 0 0 .3rem; color: rgba(255,255,255,.85); }
-.lab-hero .lab-name .sun { color: #ffffff; }
-.lab-hero .lab-abbr { letter-spacing: .18em; font-weight: 600; color: #ffffff; margin: .1rem 0 1rem; }
-.lab-hero .lab-tagline { font-size: 1.05rem; max-width: 48ch; margin: 0 auto .7rem; color: rgba(255,255,255,.9); }
-.lab-hero .lab-affil { font-size: .9rem; color: rgba(255,255,255,.7); margin: 0; }
-
-.research-grid { display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: center; margin: 1.5rem 0; }
-.research-card {
-  flex: 1 1 240px; max-width: 320px; text-align: center;
-  background: #ffffff;
-  border: 1px solid #e3e6e9;
-  border-radius: 14px;
-  padding: 1.8rem 1.4rem;
-  box-shadow: 0 1px 4px rgba(14, 74, 138, .07);
-}
-.research-card img { width: 150px; height: 150px; }
-.research-card h3 { margin: 1.1rem 0 .4rem; color: #0E4A8A; }
-.research-card p { font-size: .95rem; line-height: 1.55; color: #898C8E; }
-
-.joinus {
-  border: 1.5px solid #0E4A8A; border-radius: 14px; background: #f7f8fa;
-  text-align: center; padding: 2.4rem 1.6rem; margin: 2.2rem 0;
-}
-.joinus .joinus-title { color: #0E4A8A; font-size: 1.5rem; font-weight: 700; margin-bottom: 1.2rem; }
-.joinus p { color: #898C8E; max-width: 56ch; margin: 0 auto .8rem; line-height: 1.6; }
-.joinus .email-btn {
-  display: inline-block; margin-top: 1.2rem; background: #0E4A8A; color: #ffffff;
-  font-weight: 600; padding: .7rem 1.5rem; border-radius: 8px; text-decoration: none;
-}
-.joinus .email-btn:hover { background: #0c3e75; color: #ffffff; }
-</style>
+<style>.post-header { display: none; }</style>
 
 <div class="lab-hero">
   <h1 class="lab-name"><span class="sun">S</span>ecurity, <span class="sun">U</span>sability, and <span class="sun">N</span>etworking Lab</h1>
