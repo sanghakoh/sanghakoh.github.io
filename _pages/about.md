@@ -63,6 +63,8 @@ nav_order: 1
   }
   #navbar .nav-link,
   .navbar-nav .nav-link { font-weight: 700 !important; }
+
+  .joinus p { text-wrap: pretty; }
 </style>
 
 <div class="lab-hero">
