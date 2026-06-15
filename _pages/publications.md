@@ -6,22 +6,6 @@ nav: true
 nav_order: 3
 ---
 
-<style>
-.me { font-weight: 700; text-decoration: underline; }
-.venue {
-  display: inline-block; background: #eaf1f9; color: #0E4A8A;
-  font-weight: 600; font-size: .78rem; letter-spacing: .02em;
-  padding: .18rem .55rem; border-radius: 6px; border: 1px solid #d6e2f0; margin-right: .45rem;
-}
-.pdf-btn {
-  display: inline-block; background: #1f2937; color: #ffffff;
-  font-weight: 600; font-size: .75rem; letter-spacing: .03em;
-  padding: .2rem .65rem; border-radius: 6px; text-decoration: none; margin-top: .4rem;
-}
-.pdf-btn:hover { background: #000000; color: #ffffff; }
-.page li { margin-bottom: 1.1rem; line-height: 1.5; }
-</style>
-
 \* equal contributions
 
 ### 2026
