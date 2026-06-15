@@ -61,25 +61,25 @@ nav_order: 1
 
 <div class="research-grid">
   <div class="research-card">
-    <img src="/assets/img/icon-network-security.png" alt="Threat Identification" />
-    <h3>Threat Identification</h3>
-    <p>We identify emerging security threats through vulnerability discovery and
-    side-channel analysis, including risks introduced by modern architectures
-    such as AI accelerators and other emerging computing platforms.</p>
+    <img src="/assets/img/icon-network-security.png" alt="Network Security" />
+    <h3>Network Security</h3>
+    <p>We analyze and protect networked systems and the traffic that flows
+    through them, including encrypted and tunneled communications, to uncover
+    attacks and keep real-world networks reliable and trustworthy.</p>
   </div>
   <div class="research-card">
-    <img src="/assets/img/icon-usable-security.png" alt="Threat Mitigation and Enforcement" />
-    <h3>Threat Mitigation &amp; Enforcement</h3>
-    <p>We design and implement practical defense mechanisms, including trusted
-    execution environments (TEEs) and secure system designs, to enforce security
-    guarantees in both networked and system-level infrastructures.</p>
+    <img src="/assets/img/icon-usable-security.png" alt="Usable Security" />
+    <h3>Usable Security</h3>
+    <p>We study how people perceive, adopt, and interact with security and
+    privacy mechanisms, and design protections that work in practice without
+    burdening the people who rely on them.</p>
   </div>
   <div class="research-card">
-    <img src="/assets/img/icon-ai-security.png" alt="Security Evaluation" />
-    <h3>Security Evaluation</h3>
-    <p>We perform systematic security analysis of networked systems using
-    techniques such as dynamic analysis and fuzzing to uncover vulnerabilities
-    and evaluate the robustness of real-world software and protocols.</p>
+    <img src="/assets/img/icon-ai-security.png" alt="AI Security" />
+    <h3>AI Security</h3>
+    <p>We investigate the security and robustness of AI and machine learning
+    systems, including the risks of poisoned or compromised models, to defend
+    learning-based systems against adversarial manipulation.</p>
   </div>
 </div>
 
