@@ -89,7 +89,7 @@ nav_order: 2
 <div class="openings">
   <p class="openings-title">Open Positions</p>
   <p>
-    We are looking for motivated undergraduate, M.S. and Ph.D. students. If you are interested in our lab, please email: <a href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>
+    We are looking for motivated undergraduate and graduate (M.S. and Ph.D.) students. If you are interested in our lab, please email: <a href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>
   </p>
 </div>
 
