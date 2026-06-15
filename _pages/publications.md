@@ -72,6 +72,11 @@ nav_order: 3
   <span class="venue">CCS '25</span> The 32nd ACM Conference on Computer and Communications Security<br>
   <a class="pdf-btn" href="https://dl.acm.org/doi/abs/10.1145/3719027.3765217">PDF</a>
 
+- **Insecure Coding Habits Die Hard. Can PEFT Really Turn LLMs into Secure Coders?**<br>
+  Sangjun Chae, Jangseop Choi, Taeyang Kim, Eun Jung, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
+  <span class="venue">CCS '25 (Poster)</span> The 32nd ACM Conference on Computer and Communications Security<br>
+  <a class="pdf-btn" href="https://dl.acm.org/doi/abs/10.1145/3719027.3760716">PDF</a>
+
 - **Understanding and Improving User Adoption and Security Awareness in Password Checkup Services.**<br>
   <span class="me">Sanghak Oh</span>, Heewon Baek, Jun Ho Huh, Taeyoung Kim, Woojin Jeon, Ian Oakley, and Hyoungshick Kim.<br>
   <span class="venue">CHI '25</span> The 43rd ACM SIGCHI Conference on Human Factors in Computing Systems<br>
@@ -96,6 +101,13 @@ nav_order: 3
   <span class="venue">Sensors</span> <br>
   <a class="pdf-btn" href="https://www.mdpi.com/1424-8220/23/3/1310">PDF</a>
 
+### 2022
+
+- **Adversarial Perturbation Attacks on the State-of-the-Art Cryptojacking Detection System in IoT Networks.**<br>
+  Kiho Lee, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
+  <span class="venue">CCS '22 (Poster)</span> The 29th ACM Conference on Computer and Communications Security<br>
+  <a class="pdf-btn" href="https://dl.acm.org/doi/abs/10.1145/3548606.3563530">PDF</a>
+
 ### 2017
 
 - **Wrong Siren! A Location Spoofing Attack on Indoor Positioning Systems: The Starbucks Case Study.**<br>
@@ -116,19 +128,3 @@ nav_order: 3
   <a class="pdf-btn" href="https://link.springer.com/chapter/10.1007/978-3-319-56549-1_15">PDF</a>
 
 ---
-
-## Posters
-
-### 2025
-
-- **Insecure Coding Habits Die Hard. Can PEFT Really Turn LLMs into Secure Coders?**<br>
-  Sangjun Chae, Jangseop Choi, Taeyang Kim, Eun Jung, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
-  <span class="venue">CCS '25</span> The 32nd ACM Conference on Computer and Communications Security<br>
-  <a class="pdf-btn" href="https://dl.acm.org/doi/abs/10.1145/3719027.3760716">PDF</a>
-
-### 2022
-
-- **Adversarial Perturbation Attacks on the State-of-the-Art Cryptojacking Detection System in IoT Networks.**<br>
-  Kiho Lee, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
-  <span class="venue">CCS '22</span> The 29th ACM Conference on Computer and Communications Security<br>
-  <a class="pdf-btn" href="https://dl.acm.org/doi/abs/10.1145/3548606.3563530">PDF</a>
