@@ -42,6 +42,6 @@ nav_order: 4
     </div>
   </div>
   <div class="contact-map">
-    <iframe src="[https://maps.google.com/maps?q=Hanyang%20University%20ERICA&t=&z=16&ie=UTF8&iwloc=&output=embed](https://maps.app.goo.gl/7em4WJdb3Xa9YzdW9)" allowfullscreen></iframe>
+    <iframe src="https://maps.google.com/maps?q=Hanyang%20University%20ERICA&t=&z=16&ie=UTF8&iwloc=&output=embed" allowfullscreen></iframe>
   </div>
 </div>
