@@ -44,6 +44,20 @@ nav_order: 2
   .member .m-name { font-weight: 700; color: #0e4a8a; margin-top: 0.6rem; }
   .member .m-role { font-size: 0.85rem; color: #898c8e; }
   .empty-note { color: #898c8e; font-style: italic; }
+
+    /* We Are Recruiting 박스 */
+  .recruit-box {
+    border: 2px dashed #0e4a8a;
+    background: #f3f7fc;
+    border-radius: 16px;
+    text-align: center;
+    padding: 2.4rem 1.8rem;
+    margin: 1.4rem 0 2rem;
+  }
+  .recruit-box .recruit-title { color: #0e4a8a; font-size: 1.5rem; font-weight: 800; margin: 0 0 1rem; letter-spacing: -0.01em; }
+  .recruit-box p { color: #6b7280; max-width: 60ch; margin: 0 auto; line-height: 1.65; }
+  .recruit-box a { color: #0e4a8a; font-weight: 600; text-decoration: none; }
+  .recruit-box a:hover { text-decoration: underline; }
 </style>
 
 ## Faculty
@@ -72,15 +86,15 @@ nav_order: 2
 
 ## Students
 
-<p class="empty-note">We are recruiting motivated students. See the Join Us section on the home page.</p>
-
-<div class="member-grid">
-  <div class="member">
-    <img src="/assets/img/member1.jpg" alt="Name" />
-    <div class="m-name">Hong Gildong</div>
-    <div class="m-role">Ph.D. Student</div>
-  </div>
+<div class="recruit-box">
+  <p class="recruit-title">We Are Recruiting!</p>
+  <p>
+    We are actively looking for motivated undergraduate and graduate students.
+    If you are interested in security, usability, and networking, please contact
+    <a href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>.
+  </p>
 </div>
+
 
 <!-- 학생이 생기면 아래 틀을 복사해서 채우세요
 <div class="member-grid">
