@@ -45,19 +45,19 @@ nav_order: 2
   .member .m-role { font-size: 0.85rem; color: #898c8e; }
   .empty-note { color: #898c8e; font-style: italic; }
 
-    /* We Are Recruiting 박스 */
-  .recruit-box {
-    border: 2px dashed #0e4a8a;
-    background: #f3f7fc;
-    border-radius: 16px;
-    text-align: center;
-    padding: 2.4rem 1.8rem;
-    margin: 1.4rem 0 2rem;
-  }
-  .recruit-box .recruit-title { color: #0e4a8a; font-size: 1.5rem; font-weight: 800; margin: 0 0 1rem; letter-spacing: -0.01em; }
-  .recruit-box p { color: #6b7280; max-width: 60ch; margin: 0 auto; line-height: 1.65; }
-  .recruit-box a { color: #0e4a8a; font-weight: 600; text-decoration: none; }
-  .recruit-box a:hover { text-decoration: underline; }
+  /* Open positions callout */
+    .openings {
+      border: 1px solid #dbe4f0;
+      border-left: 5px solid #0e4a8a;
+      background: #fafcff;
+      border-radius: 12px;
+      padding: 1.6rem 1.8rem;
+      margin: 1.4rem 0 2rem;
+    }
+    .openings .openings-title { color: #0e4a8a; font-size: 1.15rem; font-weight: 700; margin: 0 0 0.5rem; }
+    .openings p { color: #4b5563; margin: 0; line-height: 1.65; }
+    .openings a { color: #0e4a8a; font-weight: 600; text-decoration: none; }
+    .openings a:hover { text-decoration: underline; }
 </style>
 
 ## Faculty
@@ -86,12 +86,10 @@ nav_order: 2
 
 ## Students
 
-<div class="recruit-box">
-  <p class="recruit-title">We Are Recruiting!</p>
+<div class="openings">
+  <p class="openings-title">Open Positions</p>
   <p>
-    We are actively looking for motivated undergraduate and graduate students.
-    If you are interested in security, usability, and networking, please contact
-    <a href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>.
+    We are looking for motivated undergraduate and graduate (M.S. and Ph.D.) students. If you are interested in our lab, please email <a href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>
   </p>
 </div>
 
