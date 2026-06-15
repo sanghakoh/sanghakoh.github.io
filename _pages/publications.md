@@ -6,6 +6,32 @@ nav: true
 nav_order: 3
 ---
 
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+<style>
+  body { font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; line-height: 1.72; -webkit-font-smoothing: antialiased; }
+  a { color: #0e4a8a; }
+  h1 { color: #0e4a8a; }
+  h2 { color: #0e4a8a; border-bottom: 2px solid #e6eaef; padding-bottom: 0.35rem; margin-top: 2.2rem; }
+  h3 { color: #1f2937; margin-top: 1.6rem; }
+
+  .me { font-weight: 700; text-decoration: underline; text-underline-offset: 2px; }
+  .venue {
+    display: inline-block; background: #eaf1f9; color: #0e4a8a;
+    font-weight: 600; font-size: 0.76rem; letter-spacing: 0.02em;
+    padding: 0.2rem 0.6rem; border-radius: 999px; border: 1px solid #d6e2f0; margin-right: 0.45rem;
+  }
+  .pdf-btn {
+    display: inline-block; background: #1f2937; color: #fff;
+    font-weight: 600; font-size: 0.74rem; letter-spacing: 0.04em;
+    padding: 0.22rem 0.7rem; border-radius: 999px; text-decoration: none; margin-top: 0.45rem;
+    transition: background 0.15s ease;
+  }
+  .pdf-btn:hover { background: #000; color: #fff; }
+  li { margin-bottom: 1.2rem; line-height: 1.55; }
+</style>
+
 \* equal contributions
 
 ### 2026
