@@ -29,7 +29,7 @@ nav_order: 3
     transition: background 0.15s ease;
   }
   .pdf-btn:hover { background: #000; color: #fff; }
-  li:not(.nav-item) { margin-bottom: 1.2rem; line-height: 1.55; } }
+  li:not(.nav-item) { margin-bottom: 1.2rem; line-height: 1.55; } 
 </style>
 
 <style>
