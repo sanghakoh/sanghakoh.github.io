@@ -86,7 +86,7 @@ nav_order: 1
     <img src="/assets/img/icon-usable-security.png" alt="Usable Security" />
     <h3>Usable Security</h3>
     <p>We study how people perceive, adopt, and interact with security and 
-      privacy mechanisms, and apply what we learn to make these mechanisms 
+      privacy mechanisms, drawing on real-user data to make these mechanisms 
       more usable in practice without weakening their protection.</p>
   </div>
   <div class="research-card">
