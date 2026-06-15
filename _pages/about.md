@@ -68,7 +68,7 @@ nav_order: 1
 <div class="lab-hero">
   <h1 class="lab-name"><span class="sun">S</span>ecurity, <span class="sun">U</span>sability, and <span class="sun">N</span>etworking Lab</h1>
   <p class="lab-abbr">SUNLab</p>
-  <p class="lab-tagline">We develop fundamental techniques to make real-world systems secure, usable, and trustworthy. We cover diverse topics across network security, usable security, and AI security.</p>
+  <p class="lab-tagline">We develop fundamental techniques to make real-world systems secure, usable, and trustworthy. Our research spans network security, usable security, and AI security.</p>
   <p class="lab-affil">Dept. of Computer Science and Engineering · Hanyang University ERICA</p>
 </div>
 
