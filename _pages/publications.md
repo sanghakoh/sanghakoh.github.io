@@ -79,14 +79,14 @@ nav_order: 3
 
 - **A Comparative Study of Time Series Anomaly Detection Models for Industrial Control Systems.**<br>
   Bedeuro Kim, Mohsen Ali Alawami, Eunsoo Kim, <span class="me">Sanghak Oh</span>, Jeongyong Park, and Hyoungshick Kim.<br>
-  <span class="venue">Sensors '23</span> Sensors (MDPI)<br>
+  Sensors <br>
   <a class="pdf-btn" href="https://www.mdpi.com/1424-8220/23/3/1310">PDF</a>
 
 ### 2017
 
 - **Wrong Siren! A Location Spoofing Attack on Indoor Positioning Systems: The Starbucks Case Study.**<br>
   Junsung Cho, Jaegwan Yu, <span class="me">Sanghak Oh</span>, Jungwoo Ryoo, Jaeseung Song, and Hyoungshick Kim.<br>
-  <span class="venue">IEEE Comunications Magazine '17</span> IEEE Communications Magazine<br>
+  <span class="venue">IEEE ComMag '17</span> IEEE Communications Magazine<br>
   <a class="pdf-btn" href="https://ieeexplore.ieee.org/abstract/document/7876970/">PDF</a>
 
 - **A Flexible Architecture for Orchestrating Network Security Functions to Support High-Level Security Policies.**<br>
