@@ -56,4 +56,6 @@ profiles:
     font-size: 0 !important;        /* 테마 기본 "SUNLab" 글자 숨김 */
     background: url("/assets/img/sunlab_icon_with_white_background.png") left center / contain no-repeat;
   }
+  #navbar .nav-link,
+  .navbar-nav .nav-link { font-weight: 700 !important; }
 </style>
