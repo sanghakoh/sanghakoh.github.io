@@ -72,8 +72,10 @@ nav_order: 2
     <p class="pi-affil">Department of Computer Science and Engineering</p>
     <p class="pi-affil">Hanyang University ERICA, Ansan, Korea</p>
     <p class="pi-bio">
-      Sanghak Oh leads SUNLab, with research on network security, usable security, and AI security.
-      He received his Ph.D. from Sungkyunkwan University. <!-- 필요하면 수정 -->
+      Sanghak Oh is an Assistant Professor at Hanyang University ERICA, where he leads SUNLab. 
+      His research spans network security, usable security, and AI security. He received his 
+      Ph.D. from Sungkyunkwan University and previously served as an Assistant Professor at 
+      the Korea Military Academy. <!-- 필요하면 수정 -->
     </p>
     <div class="pi-links">
       <a href="mailto:sanghak@hanyang.ac.kr">Email</a>
