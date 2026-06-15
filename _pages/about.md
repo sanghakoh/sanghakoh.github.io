@@ -105,8 +105,8 @@ nav_order: 1
 
 <div class="joinus">
   <div class="joinus-title">Join Us</div>
-  <p>SUNLab is actively recruiting motivated M.S. and Ph.D. students, as well as undergraduate interns, who are interested in security, usability, and networking.</p>
-  <p>If you are passionate about solving challenging problems across networks, machine learning, and human factors, please reach out!</p>
+  <p>We are recruiting motivated undergraduate and graduate students, who are interested in security, usability, and networking.</p>
+  <p>If you are in our lab, please reach out with your CV & transcript.</p>
   <a class="email-btn" href="mailto:sanghak@hanyang.ac.kr">sanghak@hanyang.ac.kr</a>
 </div>
 
