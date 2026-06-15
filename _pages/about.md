@@ -79,8 +79,8 @@ nav_order: 1
     <img src="/assets/img/icon-network-security.png" alt="Network Security" />
     <h3>Network Security</h3>
     <p>We analyze and protect networked systems and the traffic that flows
-    through them, including encrypted and tunneled communications, to uncover
-    attacks and keep real-world networks reliable and trustworthy.</p>
+     through them, uncovering attacks and keeping real-world networks reliable
+     and trustworthy.</p>
   </div>
   <div class="research-card">
     <img src="/assets/img/icon-usable-security.png" alt="Usable Security" />
