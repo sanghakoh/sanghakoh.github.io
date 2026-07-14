@@ -102,6 +102,7 @@ nav_order: 1
 
 ## News
 
+- **Jul 2026** · Eunjung, Bohyun, Jooyoung, and Hyunwoo join SUNLab as undergraduate researchers. Welcome!
 - **Jun 2026** · SUNLab officially launches at Hanyang University ERICA!
 - **Mar 2026** · Two papers are accepted at ASIACCS 2026 (CCA-Droid and PP-Vul).
 
