@@ -95,6 +95,24 @@ nav_order: 2
   </p>
 </div>
 
+<div class="member-grid">
+  <div class="member">
+    <img src="/assets/img/students/eunjung_jang.jpg" alt="Eunjung Jang" />
+    <div class="m-name">Eunjung Jang</div>
+    <div class="m-role">Undergraduate</div>
+  </div>
+  <div class="member">
+    <img src="/assets/img/students/jooyoung_kim.jpg" alt="Jooyoung Kim" />
+    <div class="m-name">Jooyoung Kim</div>
+    <div class="m-role">Undergraduate</div>
+  </div>
+  <div class="member">
+    <img src="/assets/img/students/bohyun_kim.jpg" alt="Bohyun Kim" />
+    <div class="m-name">Bohyun Kim</div>
+    <div class="m-role">Undergraduate</div>
+  </div>  
+</div>
+
 
 <!-- 학생이 생기면 아래 틀을 복사해서 채우세요
 <div class="member-grid">
