@@ -103,8 +103,8 @@ nav_order: 2
     <div class="m-role">Undergraduate</div>
   </div>
   <div class="member">
-    <img src="/assets/img/students/jooyoung_kim.jpg" alt="Jooyoung Kim" />
-    <div class="m-name">Jooyoung Kim</div>
+    <img src="/assets/img/students/juyeong_kim.jpg" alt="Juyeong Kim" />
+    <div class="m-name">Juyeong Kim</div>
     <div class="m-role">Undergraduate</div>
   </div>
   <div class="member">
