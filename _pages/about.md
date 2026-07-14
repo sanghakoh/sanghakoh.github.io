@@ -49,6 +49,8 @@ nav_order: 1
     box-shadow: 0 4px 14px rgba(14, 74, 138, 0.28); transition: transform 0.15s ease, background 0.15s ease;
   }
   .joinus .email-btn:hover { background: #0c3e75; color: #fff; transform: translateY(-2px); }
+
+  .news-date { display: inline-block; width: 4.8em; font-weight: 700; }
 </style>
 
 <style>
@@ -102,9 +104,9 @@ nav_order: 1
 
 ## News
 
-- **Jul 2026** · Eunjung, Bohyun, Jooyoung, and Hyunwoo join SUNLab as undergraduate researchers. Welcome!
-- **Jun 2026** · SUNLab officially launches at Hanyang University ERICA!
-- **Mar 2026** · Two papers are accepted at ASIACCS 2026 (CCA-Droid and PP-Vul).
+- <span class="news-date">Jul 2026</span>· Eunjung, Bohyun, Jooyoung, and Hyunwoo join SUNLab as undergraduate researchers. Welcome!
+- <span class="news-date">Jun 2026</span>· SUNLab officially launches at Hanyang University ERICA!
+- <span class="news-date">Mar 2026</span>· Two papers are accepted at ASIACCS 2026 (CCA-Droid and PP-Vul).
 
 <div class="joinus">
   <div class="joinus-title">Join Us</div>
