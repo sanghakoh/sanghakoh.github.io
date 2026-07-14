@@ -112,7 +112,7 @@ nav_order: 2
     <div class="m-role">Undergraduate</div>
   </div>  
   <div class="member">
-    <img src="/assets/img/students/hyunwoo_jeon.jpg" alt="Hyunwoo Jeon" />
+    <img src="/assets/img/students/hyunwoo_jeon.jpg" alt="Hyunwoo Jeon" style="object-fit: contain;" />
     <div class="m-name">Hyunwoo Jeon</div>
     <div class="m-role">Undergraduate</div>
   </div>
