@@ -59,14 +59,6 @@ nav_order: 2
     .openings a { color: #0e4a8a; font-weight: 600; text-decoration: none; }
     .openings a:hover { text-decoration: underline; }
 
-  .member { flex: 0 0 150px; text-align: center; }
-  .member img {
-    width: 140px;
-    height: 170px;
-    object-fit: cover;
-    border-radius: 12px;
-    border: 1px solid #e6eaef;
-  }
 </style>
 
 ## Faculty
