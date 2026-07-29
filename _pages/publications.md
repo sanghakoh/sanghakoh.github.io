@@ -52,7 +52,7 @@ nav_order: 3
 
 - **KARMA: Lightweight Anomaly Detection for Industrial Control Systems via Knowledge Distillation.**<br>
   Bedeuro Kim, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
-  <span class="venue">TDSC</span> IEEE Transactions on Dependable and Secure Computing<br>
+  <span class="venue">IEEE TDSC</span> IEEE Transactions on Dependable and Secure Computing<br>
   <a class="pdf-btn" href="#">PDF</a>
 
 - **CCA-Droid: Context-Aware Cryptographic API Misuse Detection in Android Apps.**<br>
