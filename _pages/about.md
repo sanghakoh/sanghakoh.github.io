@@ -103,7 +103,7 @@ nav_order: 1
 </div>
 
 ## News
-- <span class="news-date">2026/09:</span>Our paper on how developers respond to insecure AI code suggestions under poisoning attacks is accepted to IEEE TSE!
+- <span class="news-date">2026/09:</span>"How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks" is accepted to IEEE TSE.
 - <span class="news-date">2026/08:</span>Serving on the Program Committees of NDSS 2027 and ICDM 2027.
 - <span class="news-date">2026/07:</span>"KARMA: Lightweight Anomaly Detection for Industrial Control Systems" is accepted to IEEE TDSC.
 - <span class="news-date">2026/07:</span>Eunjung, Bohyun, Juyeong, and Hyunwoo join SUNLab as undergraduate researchers. Welcome!
