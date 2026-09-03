@@ -50,6 +50,11 @@ nav_order: 3
 
 ### 2026
 
+- **How Developers Respond to Insecure AI Code Suggestions under Poisoning Attacks: An Empirical Study of Interface-Level Countermeasures.**<br>
+  <span class="me">Sanghak Oh</span>, Eun Jung, Sangjun Chae, and Hyoungshick Kim.<br>
+  <span class="venue">TSE</span> IEEE Transactions on Software Engineering<br>
+  <a class="pdf-btn" href="#">PDF</a>
+
 - **KARMA: Lightweight Anomaly Detection for Industrial Control Systems via Knowledge Distillation.**<br>
   Bedeuro Kim, <span class="me">Sanghak Oh</span>, and Hyoungshick Kim.<br>
   <span class="venue">IEEE TDSC</span> IEEE Transactions on Dependable and Secure Computing<br>
