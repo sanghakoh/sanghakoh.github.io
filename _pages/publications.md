@@ -30,6 +30,14 @@ nav_order: 3
   }
   .pdf-btn:hover { background: #000; color: #fff; }
   li:not(.nav-item) { margin-bottom: 1.2rem; line-height: 1.55; } 
+
+  .news-btn {
+    display: inline-block; background: #0e4a8a; color: #fff;
+    font-weight: 600; font-size: 0.74rem; letter-spacing: 0.04em;
+    padding: 0.22rem 0.7rem; border-radius: 999px; text-decoration: none; margin-top: 0.45rem;
+    transition: background 0.15s ease;
+  }
+  .news-btn:hover { background: #0c3e75; color: #fff; }
 </style>
 
 <style>
@@ -98,6 +106,7 @@ nav_order: 3
   <span class="me">Sanghak Oh</span>\*, Kiho Lee\*, Seonhye Park, Doowon Kim, and Hyoungshick Kim.<br>
   <span class="venue">S&P '24</span> The 45th IEEE Symposium on Security and Privacy<br>
   <a class="pdf-btn" href="https://ieeexplore.ieee.org/abstract/document/10646888">PDF</a>
+  <a class="pdf-btn" href="https://gbhackers.com/poisoned-ai-coding/" target="_blank" rel="noopener">News</a>
 
 ### 2023
 
