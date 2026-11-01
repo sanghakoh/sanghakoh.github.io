@@ -60,23 +60,14 @@ nav_order: 5
   .navbar-nav .nav-link { font-weight: 700 !important; }
 </style>
 
-## SUNLab Launch (Jun 2026)
+## CISC-W 2026
 
 <div class="gallery-grid">
-  <img src="/assets/img/gallery/launch/1.jpg" alt="SUNLab launch 1" loading="lazy" />
-  <img src="/assets/img/gallery/launch/2.jpg" alt="SUNLab launch 2" loading="lazy" />
-  <img src="/assets/img/gallery/launch/3.jpg" alt="SUNLab launch 3" loading="lazy" />
-  <img src="/assets/img/gallery/launch/4.jpg" alt="SUNLab launch 4" loading="lazy" />
-  <img src="/assets/img/gallery/launch/5.jpg" alt="SUNLab launch 5" loading="lazy" />
-  <img src="/assets/img/gallery/launch/6.jpg" alt="SUNLab launch 6" loading="lazy" />
-</div>
-
-## Group Outing (Jul 2026)
-
-<div class="gallery-grid">
-  <img src="/assets/img/gallery/outing/1.jpg" alt="Group outing 1" loading="lazy" />
-  <img src="/assets/img/gallery/outing/2.jpg" alt="Group outing 2" loading="lazy" />
-  <img src="/assets/img/gallery/outing/3.jpg" alt="Group outing 3" loading="lazy" />
+  <img src="/assets/img/gallery/cisc-2026w/1.jpg" alt="CISC-W 2026 1" loading="lazy" />
+  <img src="/assets/img/gallery/cisc-2026w/2.jpg" alt="CISC-W 2026 2" loading="lazy" />
+  <img src="/assets/img/gallery/cisc-2026w/3.jpg" alt="CISC-W 2026 3" loading="lazy" />
+  <img src="/assets/img/gallery/cisc-2026w/4.jpg" alt="CISC-W 2026 4" loading="lazy" />
+  <img src="/assets/img/gallery/cisc-2026w/5.jpg" alt="CISC-W 2026 5" loading="lazy" />
 </div>
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
