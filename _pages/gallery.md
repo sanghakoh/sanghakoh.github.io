@@ -14,25 +14,25 @@ nav_order: 5
   h1 { color: #0e4a8a; }
   h2 { color: #0e4a8a; border-bottom: 2px solid #e6eaef; padding-bottom: 0.35rem; margin-top: 2.4rem; }
 
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 0.8rem;
-    margin: 1.1rem 0 1.5rem;
+  /* 행사 캐러셀 2열 레이아웃 */
+  .gallery-columns { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: center; margin: 1.2rem 0 2rem; }
+  .carousel { flex: 1 1 340px; max-width: calc(50% - 1rem); margin: 0; }
+  @media (max-width: 680px) {
+    .carousel { max-width: 100%; flex-basis: 100%; }
   }
-  .gallery-grid img {
-    width: 100%;
-    aspect-ratio: 4 / 3;
-    object-fit: cover;
-    border-radius: 10px;
-    border: 1px solid #e6eaef;
-    cursor: pointer;
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
-  }
-  .gallery-grid img:hover { transform: translateY(-3px); box-shadow: 0 10px 24px rgba(14, 74, 138, 0.15); }
-  @media (max-width: 640px) {
-    .gallery-grid { grid-template-columns: repeat(2, 1fr); gap: 0.6rem; }
-  }
+  .carousel-title { text-align: center; color: #0e4a8a; font-weight: 700; font-size: 1.15rem; margin: 0 0 0.9rem; }
+  .carousel-stage { position: relative; }
+  .carousel-track { position: relative; aspect-ratio: 4 / 3; border-radius: 12px; overflow: hidden; border: 1px solid #e6eaef; background: #f7f9fc; }
+  .carousel-track img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; opacity: 0; transition: opacity 0.3s ease; cursor: zoom-in; }
+  .carousel-track img.active { opacity: 1; }
+  .car-btn { position: absolute; top: 50%; transform: translateY(-50%); z-index: 3; background: rgba(14, 74, 138, 0.82); color: #fff; border: none; width: 40px; height: 40px; border-radius: 50%; font-size: 1.1rem; cursor: pointer; transition: background 0.15s ease; }
+  .car-btn:hover { background: #0e4a8a; }
+  .car-prev { left: 10px; }
+  .car-next { right: 10px; }
+  .carousel-dots { text-align: center; margin-top: 0.8rem; }
+  .carousel-dots span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #d6e2f0; margin: 0 4px; cursor: pointer; transition: background 0.15s ease; }
+  .carousel-dots span.active { background: #0e4a8a; }
+  .carousel-counter { text-align: center; color: #898c8e; font-size: 0.85rem; margin-top: 0.5rem; }
 
   /* Lightbox */
   .lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(0, 0, 0, 0.9); display: none; align-items: center; justify-content: center; }
@@ -60,14 +60,41 @@ nav_order: 5
   .navbar-nav .nav-link { font-weight: 700 !important; }
 </style>
 
-## CISC-W 2026
+<div class="gallery-columns">
 
-<div class="gallery-grid">
-  <img src="/assets/img/gallery/cisc-2026w/1.jpg" alt="CISC-W 2026 1" loading="lazy" />
-  <img src="/assets/img/gallery/cisc-2026w/2.jpg" alt="CISC-W 2026 2" loading="lazy" />
-  <img src="/assets/img/gallery/cisc-2026w/3.jpg" alt="CISC-W 2026 3" loading="lazy" />
-  <img src="/assets/img/gallery/cisc-2026w/4.jpg" alt="CISC-W 2026 4" loading="lazy" />
-  <img src="/assets/img/gallery/cisc-2026w/5.jpg" alt="CISC-W 2026 5" loading="lazy" />
+  <div class="carousel" data-title="CISC-W 2026">
+    <p class="carousel-title">CISC-W 2026</p>
+    <div class="carousel-stage">
+      <div class="carousel-track">
+        <img src="/assets/img/gallery/cisc-2026w/1.jpg" alt="CISC-W 2026 1" class="active" loading="lazy" />
+        <img src="/assets/img/gallery/cisc-2026w/2.jpg" alt="CISC-W 2026 2" loading="lazy" />
+        <img src="/assets/img/gallery/cisc-2026w/3.jpg" alt="CISC-W 2026 3" loading="lazy" />
+        <img src="/assets/img/gallery/cisc-2026w/4.jpg" alt="CISC-W 2026 4" loading="lazy" />
+        <img src="/assets/img/gallery/cisc-2026w/5.jpg" alt="CISC-W 2026 5" loading="lazy" />
+      </div>
+      <button class="car-btn car-prev" aria-label="Previous">&#10094;</button>
+      <button class="car-btn car-next" aria-label="Next">&#10095;</button>
+    </div>
+    <div class="carousel-dots"></div>
+    <div class="carousel-counter"></div>
+  </div>
+
+  <!-- 행사 추가 시 아래 블록을 복사해서 제목과 사진 경로만 바꾸세요 (자동으로 2열 배치)
+  <div class="carousel" data-title="행사명">
+    <p class="carousel-title">행사명</p>
+    <div class="carousel-stage">
+      <div class="carousel-track">
+        <img src="/assets/img/gallery/행사폴더/1.jpg" alt="행사명 1" class="active" loading="lazy" />
+        <img src="/assets/img/gallery/행사폴더/2.jpg" alt="행사명 2" loading="lazy" />
+      </div>
+      <button class="car-btn car-prev" aria-label="Previous">&#10094;</button>
+      <button class="car-btn car-next" aria-label="Next">&#10095;</button>
+    </div>
+    <div class="carousel-dots"></div>
+    <div class="carousel-counter"></div>
+  </div>
+  -->
+
 </div>
 
 <div class="lightbox" id="lightbox" aria-hidden="true">
@@ -80,41 +107,64 @@ nav_order: 5
 
 <script>
   (function () {
-    function initGallery() {
+    function init() {
       var lb = document.getElementById("lightbox");
-      if (!lb) return;
-      var lbImg = lb.querySelector(".lb-img");
-      var lbCap = lb.querySelector(".lb-caption");
-      var group = [], idx = 0;
+      var lbImg = lb ? lb.querySelector(".lb-img") : null;
+      var lbCap = lb ? lb.querySelector(".lb-caption") : null;
+      var lbGroup = [], lbIdx = 0;
 
-      function show(i) {
-        if (!group.length) return;
-        idx = (i + group.length) % group.length;
-        lbImg.src = group[idx].src;
-        lbImg.alt = group[idx].alt || "";
-        lbCap.textContent = (group[idx].alt ? group[idx].alt + "   " : "") + "(" + (idx + 1) + " / " + group.length + ")";
+      function lbShow(i) {
+        if (!lbGroup.length) return;
+        lbIdx = (i + lbGroup.length) % lbGroup.length;
+        lbImg.src = lbGroup[lbIdx].src;
+        lbImg.alt = lbGroup[lbIdx].alt || "";
+        lbCap.textContent = (lbGroup[lbIdx].alt ? lbGroup[lbIdx].alt + "   " : "") + "(" + (lbIdx + 1) + " / " + lbGroup.length + ")";
       }
-      function open(g, i) { group = g; lb.classList.add("open"); document.body.style.overflow = "hidden"; show(i); }
-      function close() { lb.classList.remove("open"); document.body.style.overflow = ""; }
+      function lbOpen(g, i) { lbGroup = g; lb.classList.add("open"); document.body.style.overflow = "hidden"; lbShow(i); }
+      function lbClose() { lb.classList.remove("open"); document.body.style.overflow = ""; }
 
-      document.querySelectorAll(".gallery-grid").forEach(function (grid) {
-        var imgs = Array.prototype.slice.call(grid.querySelectorAll("img"));
-        var g = imgs.map(function (im) { return { src: im.getAttribute("src"), alt: im.getAttribute("alt") }; });
-        imgs.forEach(function (im, i) { im.addEventListener("click", function () { open(g, i); }); });
-      });
+      if (lb) {
+        lb.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); lbShow(lbIdx + 1); });
+        lb.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); lbShow(lbIdx - 1); });
+        lb.querySelector(".lb-close").addEventListener("click", function (e) { e.stopPropagation(); lbClose(); });
+        lb.addEventListener("click", function (e) { if (e.target === lb) lbClose(); });
+        document.addEventListener("keydown", function (e) {
+          if (!lb.classList.contains("open")) return;
+          if (e.key === "ArrowRight") lbShow(lbIdx + 1);
+          else if (e.key === "ArrowLeft") lbShow(lbIdx - 1);
+          else if (e.key === "Escape") lbClose();
+        });
+      }
 
-      lb.querySelector(".lb-next").addEventListener("click", function (e) { e.stopPropagation(); show(idx + 1); });
-      lb.querySelector(".lb-prev").addEventListener("click", function (e) { e.stopPropagation(); show(idx - 1); });
-      lb.querySelector(".lb-close").addEventListener("click", function (e) { e.stopPropagation(); close(); });
-      lb.addEventListener("click", function (e) { if (e.target === lb) close(); });
-      document.addEventListener("keydown", function (e) {
-        if (!lb.classList.contains("open")) return;
-        if (e.key === "ArrowRight") show(idx + 1);
-        else if (e.key === "ArrowLeft") show(idx - 1);
-        else if (e.key === "Escape") close();
+      document.querySelectorAll(".carousel").forEach(function (car) {
+        var imgs = Array.prototype.slice.call(car.querySelectorAll(".carousel-track img"));
+        if (!imgs.length) return;
+        var group = imgs.map(function (im) { return { src: im.getAttribute("src"), alt: im.getAttribute("alt") }; });
+        var dotsWrap = car.querySelector(".carousel-dots");
+        var counter = car.querySelector(".carousel-counter");
+        var cur = 0;
+
+        imgs.forEach(function (im, i) {
+          var dot = document.createElement("span");
+          dot.addEventListener("click", function () { show(i); });
+          dotsWrap.appendChild(dot);
+          im.addEventListener("click", function () { lbOpen(group, cur); });
+        });
+        var dots = Array.prototype.slice.call(dotsWrap.querySelectorAll("span"));
+
+        function show(i) {
+          cur = (i + imgs.length) % imgs.length;
+          imgs.forEach(function (im, j) { im.classList.toggle("active", j === cur); });
+          dots.forEach(function (d, j) { d.classList.toggle("active", j === cur); });
+          if (counter) counter.textContent = (cur + 1) + " / " + imgs.length;
+        }
+
+        car.querySelector(".car-prev").addEventListener("click", function () { show(cur - 1); });
+        car.querySelector(".car-next").addEventListener("click", function () { show(cur + 1); });
+        show(0);
       });
     }
-    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", initGallery);
-    else initGallery();
+    if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
+    else init();
   })();
 </script>
