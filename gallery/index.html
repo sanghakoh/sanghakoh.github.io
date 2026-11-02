@@ -7,8 +7,8 @@
   h1 { color: #0e4a8a; }
   h2 { color: #0e4a8a; border-bottom: 2px solid #e6eaef; padding-bottom: 0.35rem; margin-top: 2.4rem; }
 
-  /* 행사 캐러셀 2열 레이아웃 */
-  .gallery-columns { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: center; margin: 1.2rem 0 2rem; }
+  /* 행사 캐러셀 2열 레이아웃 (왼쪽부터 채움) */
+  .gallery-columns { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: flex-start; margin: 1.2rem 0 2rem; }
   .carousel { flex: 1 1 340px; max-width: calc(50% - 1rem); margin: 0; }
   @media (max-width: 680px) {
     .carousel { max-width: 100%; flex-basis: 100%; }
@@ -25,7 +25,6 @@
   .carousel-dots { text-align: center; margin-top: 0.8rem; }
   .carousel-dots span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #d6e2f0; margin: 0 4px; cursor: pointer; transition: background 0.15s ease; }
   .carousel-dots span.active { background: #0e4a8a; }
-  .carousel-counter { text-align: center; color: #898c8e; font-size: 0.85rem; margin-top: 0.5rem; }
 
   /* Lightbox */
   .lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(0, 0, 0, 0.9); display: none; align-items: center; justify-content: center; }
@@ -49,7 +48,7 @@
   }
   #navbar .nav-link,
   .navbar-nav .nav-link { font-weight: 700 !important; }
-</style> <div class="gallery-columns"> <div class="carousel" data-title="CISC-W 2026"> <p class="carousel-title">CISC-W 2026</p> <div class="carousel-stage"> <div class="carousel-track"> <img src="/assets/img/gallery/cisc-2026w/1.jpg" alt="CISC-W 2026 1" class="active" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/2.jpg" alt="CISC-W 2026 2" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/3.jpg" alt="CISC-W 2026 3" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/4.jpg" alt="CISC-W 2026 4" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/5.jpg" alt="CISC-W 2026 5" loading="lazy"> </div> <button class="car-btn car-prev" aria-label="Previous">❮</button> <button class="car-btn car-next" aria-label="Next">❯</button> </div> <div class="carousel-dots"></div> <div class="carousel-counter"></div> </div> </div> <div class="lightbox" id="lightbox" aria-hidden="true"> <button class="lb-close" aria-label="Close">×</button> <button class="lb-btn lb-prev" aria-label="Previous">❮</button> <img class="lb-img" src="" alt=""> <button class="lb-btn lb-next" aria-label="Next">❯</button> <div class="lb-caption"></div> </div> <script>
+</style> <div class="gallery-columns"> <div class="carousel" data-title="CISC-W 2026"> <p class="carousel-title">CISC-W 2026</p> <div class="carousel-stage"> <div class="carousel-track"> <img src="/assets/img/gallery/cisc-2026w/1.jpg" alt="CISC-W 2026 1" class="active" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/2.jpg" alt="CISC-W 2026 2" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/3.jpg" alt="CISC-W 2026 3" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/4.jpg" alt="CISC-W 2026 4" loading="lazy"> <img src="/assets/img/gallery/cisc-2026w/5.jpg" alt="CISC-W 2026 5" loading="lazy"> </div> <button class="car-btn car-prev" aria-label="Previous">❮</button> <button class="car-btn car-next" aria-label="Next">❯</button> </div> <div class="carousel-dots"></div> </div> </div> <div class="lightbox" id="lightbox" aria-hidden="true"> <button class="lb-close" aria-label="Close">×</button> <button class="lb-btn lb-prev" aria-label="Previous">❮</button> <img class="lb-img" src="" alt=""> <button class="lb-btn lb-next" aria-label="Next">❯</button> <div class="lb-caption"></div> </div> <script>
   (function () {
     function init() {
       var lb = document.getElementById("lightbox");
@@ -85,7 +84,6 @@
         if (!imgs.length) return;
         var group = imgs.map(function (im) { return { src: im.getAttribute("src"), alt: im.getAttribute("alt") }; });
         var dotsWrap = car.querySelector(".carousel-dots");
-        var counter = car.querySelector(".carousel-counter");
         var cur = 0;
 
         imgs.forEach(function (im, i) {
@@ -100,7 +98,6 @@
           cur = (i + imgs.length) % imgs.length;
           imgs.forEach(function (im, j) { im.classList.toggle("active", j === cur); });
           dots.forEach(function (d, j) { d.classList.toggle("active", j === cur); });
-          if (counter) counter.textContent = (cur + 1) + " / " + imgs.length;
         }
 
         car.querySelector(".car-prev").addEventListener("click", function () { show(cur - 1); });
