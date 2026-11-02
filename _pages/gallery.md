@@ -14,8 +14,8 @@ nav_order: 5
   h1 { color: #0e4a8a; }
   h2 { color: #0e4a8a; border-bottom: 2px solid #e6eaef; padding-bottom: 0.35rem; margin-top: 2.4rem; }
 
-  /* 행사 캐러셀 2열 레이아웃 */
-  .gallery-columns { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: center; margin: 1.2rem 0 2rem; }
+  /* 행사 캐러셀 2열 레이아웃 (왼쪽부터 채움) */
+  .gallery-columns { display: flex; flex-wrap: wrap; gap: 2rem; align-items: flex-start; justify-content: flex-start; margin: 1.2rem 0 2rem; }
   .carousel { flex: 1 1 340px; max-width: calc(50% - 1rem); margin: 0; }
   @media (max-width: 680px) {
     .carousel { max-width: 100%; flex-basis: 100%; }
@@ -32,7 +32,6 @@ nav_order: 5
   .carousel-dots { text-align: center; margin-top: 0.8rem; }
   .carousel-dots span { display: inline-block; width: 9px; height: 9px; border-radius: 50%; background: #d6e2f0; margin: 0 4px; cursor: pointer; transition: background 0.15s ease; }
   .carousel-dots span.active { background: #0e4a8a; }
-  .carousel-counter { text-align: center; color: #898c8e; font-size: 0.85rem; margin-top: 0.5rem; }
 
   /* Lightbox */
   .lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(0, 0, 0, 0.9); display: none; align-items: center; justify-content: center; }
@@ -62,6 +61,8 @@ nav_order: 5
 
 <div class="gallery-columns">
 
+  <!-- 새 행사(최신)는 이 자리, 맨 앞에 추가하면 기존 것이 오른쪽/아래로 밀립니다 -->
+
   <div class="carousel" data-title="CISC-W 2026">
     <p class="carousel-title">CISC-W 2026</p>
     <div class="carousel-stage">
@@ -76,10 +77,9 @@ nav_order: 5
       <button class="car-btn car-next" aria-label="Next">&#10095;</button>
     </div>
     <div class="carousel-dots"></div>
-    <div class="carousel-counter"></div>
   </div>
 
-  <!-- 행사 추가 시 아래 블록을 복사해서 제목과 사진 경로만 바꾸세요 (자동으로 2열 배치)
+  <!-- 행사 추가 틀 (복사해서 제목·사진 경로만 바꾸세요)
   <div class="carousel" data-title="행사명">
     <p class="carousel-title">행사명</p>
     <div class="carousel-stage">
@@ -91,7 +91,6 @@ nav_order: 5
       <button class="car-btn car-next" aria-label="Next">&#10095;</button>
     </div>
     <div class="carousel-dots"></div>
-    <div class="carousel-counter"></div>
   </div>
   -->
 
@@ -141,7 +140,6 @@ nav_order: 5
         if (!imgs.length) return;
         var group = imgs.map(function (im) { return { src: im.getAttribute("src"), alt: im.getAttribute("alt") }; });
         var dotsWrap = car.querySelector(".carousel-dots");
-        var counter = car.querySelector(".carousel-counter");
         var cur = 0;
 
         imgs.forEach(function (im, i) {
@@ -156,7 +154,6 @@ nav_order: 5
           cur = (i + imgs.length) % imgs.length;
           imgs.forEach(function (im, j) { im.classList.toggle("active", j === cur); });
           dots.forEach(function (d, j) { d.classList.toggle("active", j === cur); });
-          if (counter) counter.textContent = (cur + 1) + " / " + imgs.length;
         }
 
         car.querySelector(".car-prev").addEventListener("click", function () { show(cur - 1); });
