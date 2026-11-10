@@ -62,6 +62,19 @@ nav_order: 5
 <div class="gallery-columns">
 
   <!-- 새 행사(최신)는 이 자리, 맨 앞에 추가하면 기존 것이 오른쪽/아래로 밀립니다 -->
+  <div class="carousel" data-title="ACK-W 2026">
+    <p class="carousel-title">ACK-W 2026</p>
+    <div class="carousel-stage">
+      <div class="carousel-track">
+        <img src="/assets/img/gallery/ack-w2026/1.jpg" alt="ACK-W 2026 1" class="active" loading="lazy" />
+        <img src="/assets/img/gallery/ack-w2026/2.jpg" alt="ACK-W 2026 2" loading="lazy" />
+        <img src="/assets/img/gallery/ack-w2026/3.jpg" alt="ACK-W 2026 3" loading="lazy" />
+      </div>
+      <button class="car-btn car-prev" aria-label="Previous">&#10094;</button>
+      <button class="car-btn car-next" aria-label="Next">&#10095;</button>
+    </div>
+    <div class="carousel-dots"></div>
+  </div>
 
   <div class="carousel" data-title="CISC-W 2026">
     <p class="carousel-title">CISC-W 2026</p>
